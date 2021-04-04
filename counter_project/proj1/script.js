@@ -17,3 +17,35 @@ setTimeout(() => {
     followers.innerHTML = "Followers on Instagram!"
 
 }, 5000);
+
+
+class Person {
+    constructor() {
+        this.name = "Nina";
+        this.fun = function () { };
+    }
+    getGreeting() {
+        return `Hello ${this.name}`;
+    }
+
+}
+
+let obj = new Person();
+
+
+
+class Animal {
+    constructor(type, name) {
+        this.type = type;
+        this.name = name;
+    }
+
+
+}
+
+let animal = new Animal("dog", "sharo");
+
+
+
+
+
